@@ -1,7 +1,7 @@
 const LoginForm = () => {
   return (
-    <div className="container mx-auto md:mr-8 my-8 flex place-content-end">
-      <form className="sm:w-8/12 w-1/2 h-fit px-8 pt-6 pb-8 rounded-tr-xl rounded-bl-xl bg-slate-700 drop-shadow-lg">
+    <div className="container mx-auto px-12 pr-24 py-12 flex place-content-end">
+      <form className="w-full xl:w-8/12 h-fit px-8 pt-6 pb-6 rounded-tr-xl rounded-bl-xl bg-slate-700 drop-shadow-lg">
         <p className="font-['Lobster'] underline text-2xl text-center text-stone-50">
           Go se CapTer !
         </p>
@@ -38,12 +38,12 @@ const LoginForm = () => {
 
         <div className="flex items-center justify-between mb-5">
           <button
-            className="bg-teal-400 hover:bg-teal-500 text-gray-700 hover:text-stone-50 group py-2 px-14 sm:px-6 sm:font-light sm:py-1 rounded-tl-xl rounded-br-xl focus:outline-none focus:shadow-outline"
+            className="bg-teal-400 hover:bg-teal-500 text-gray-700 hover:text-stone-50 group md:py-2 md:px-14 md:font-normal sm:px-6 sm:font-light sm:py-1 rounded-tl-xl rounded-br-xl focus:outline-none focus:shadow-outline"
             type="button"
           >
             LOGIN
-            <span className="sm:hidden w-3 h-3 ml-2 rounded-full inline-block border-t-2 border-l-2 border-gray-700 group-hover:border-stone-50"></span>
-            <span className="sm:hidden w-3 h-3 -ml-1.5 rounded-full inline-block border-r-2 border-b-2 border-gray-700 group-hover:border-stone-50"></span>
+            <span className="md:hidden xl:inline-block w-3 h-3 ml-2 rounded-full inline-block border-t-2 border-l-2 border-gray-700 group-hover:border-stone-50"></span>
+            <span className="md:hidden xl:inline-block w-3 h-3 -ml-1.5 rounded-full inline-block border-r-2 border-b-2 border-gray-700 group-hover:border-stone-50"></span>
           </button>
           <a
             className="inline-block align-baseline font-light text-sm text-teal-400 hover:text-stone-50 sm:ml-2"

@@ -12,10 +12,11 @@ const BlogLayout = ({ children }) => {
             <span className="w-3 h-3 ml-1 rounded-full inline-block border-t-2 border-l-2 border-teal-400"></span>
             <span className="w-3 h-3 -ml-1.5 rounded-full inline-block border-r-2 border-b-2 border-teal-400"></span>
           </p>
-          <nav>
-          </nav>
+          <nav></nav>
         </header>
-        <main className="flex flex-grow bg-slate-600">{children}</main>
+        <main className="flex flex-grow bg-slate-600">
+          {children}
+        </main>
       </div>
     </>
   )

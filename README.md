@@ -1,4 +1,7 @@
-# README
+# CapTer
+
+CapTer, a social network made with ❤️ and ☕ with RedWoodJS.
+by @Emile-G.
 
 Welcome to [RedwoodJS](https://redwoodjs.com)!
 

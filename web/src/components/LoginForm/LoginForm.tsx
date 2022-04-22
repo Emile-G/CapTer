@@ -16,7 +16,7 @@ const LoginForm = () => {
             className="w-full bg-drabya-gray border-gray-500 appearance-none border p-4 font-light leading-tight focus:outline-none focus:shadow-outline rounded-md"
             type="text"
             name="username"
-            id=""
+            id="user"
             placeholder="Username"
           />
         </div>
@@ -31,22 +31,22 @@ const LoginForm = () => {
             className="w-full rounded-md border p-4 font-light leading-tight focus:outline-none focus:shadow-outline"
             type="password"
             name="password"
-            id=""
+            id="pass"
             placeholder="Password"
           />
         </div>
 
         <div className="flex items-center justify-between mb-5">
           <button
-            className="bg-teal-400 hover:bg-teal-500 text-gray-700 hover:text-stone-50 group md:py-2 md:px-14 md:font-normal sm:px-6 sm:font-light sm:py-1 rounded-tl-xl rounded-br-xl focus:outline-none focus:shadow-outline"
+            className="bg-teal-400 hover:bg-teal-500 text-gray-700 hover:text-stone-50 group py-2 px-6 md:px-14 md:font-normal sm:font-light sm:py-1 rounded-tl-xl rounded-br-xl focus:outline-none focus:shadow-outline"
             type="button"
           >
             LOGIN
-            <span className="md:hidden xl:inline-block w-3 h-3 ml-2 rounded-full inline-block border-t-2 border-l-2 border-gray-700 group-hover:border-stone-50"></span>
-            <span className="md:hidden xl:inline-block w-3 h-3 -ml-1.5 rounded-full inline-block border-r-2 border-b-2 border-gray-700 group-hover:border-stone-50"></span>
+            <span className="hidden md:inline-block w-3 h-3 ml-2 rounded-full border-t-2 border-l-2 border-gray-700 group-hover:border-stone-50"></span>
+            <span className="hidden md:inline-block w-3 h-3 -ml-1.5 rounded-full  border-r-2 border-b-2 border-gray-700 group-hover:border-stone-50"></span>
           </button>
           <a
-            className="inline-block align-baseline font-light text-sm text-teal-400 hover:text-stone-50 sm:ml-2"
+            className="inline-block align-baseline font-light text-sm text-teal-400 hover:text-stone-50 ml-2"
             href="#"
           >
             Forgot Password?

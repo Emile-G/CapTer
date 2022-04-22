@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <>
       <MetaTags title="Home" description="Home page" />
-      <div className="container -skew-y-6 mx-12 my-20 md:hidden lg:inline-block">
+      <div className="container -skew-y-6 mx-12 my-20 hidden lg:inline-block">
         <blockquote className="text-2xl leading-10 font-semibold italic text-justify text-stone-50">
           <span className="font-['Lobster'] font-light">CapTer</span> is a
           social network project based on RedWoodJS (V1.0). It's goal is to get

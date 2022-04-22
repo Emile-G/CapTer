@@ -1,6 +1,6 @@
 const LoginForm = () => {
   return (
-    <div className="container mx-auto px-12 pr-24 py-12 flex place-content-end">
+    <div className="container mx-auto pl-12 pr-28 py-16 flex place-content-end">
       <form className="w-full xl:w-8/12 h-fit px-8 pt-6 pb-6 rounded-tr-xl rounded-bl-xl bg-slate-700 drop-shadow-lg">
         <p className="font-['Lobster'] underline text-2xl text-center text-stone-50">
           Go se CapTer !

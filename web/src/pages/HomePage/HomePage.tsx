@@ -1,28 +1,21 @@
 import { MetaTags } from '@redwoodjs/web'
-import LoginForm from 'src/components/LoginForm'
+import LoginForm from 'src/components/LoginForm/LoginForm'
+import Textlanding from 'src/components/Textlanding/Textlanding'
 
 const HomePage = () => {
   return (
     <>
       <MetaTags title="Home" description="Home page" />
-      <div className="container px-16 py-20 xl:pt-24 hidden lg:inline-block">
-        <blockquote className="-skew-y-6 text-2xl leading-10 font-semibold italic text-justify text-stone-50">
-          <span className="font-['Lobster'] font-light">CapTer</span> is a
-          social network project based on RedWoodJS (V1.0). It's goal is to get
-          myself to understand the in and out of the framework. And who is
-          "myself" you may ask, well I'm
-          <a href="">
-            <span className="group ml-2 -mr-2 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-teal-400 relative inline-block">
-              <span className="relative text-slate-700 group-hover:text-stone-50">
-                Emile-G
-              </span>
-            </span>
-          </a>
-          , a software engineer who is trying to get more towards the front-end
-          end of things.
-        </blockquote>
+      <div className="w-full h-full lg:h-1/2 flex">
+        <Textlanding />
+        <LoginForm />
       </div>
-      <LoginForm />
+      <div className="hidden lg:flex h-1/2 w-full">
+        <div className="m-auto">
+          <span className="w-28 h-28 rounded-full inline-block border-t-8 border-l-8 border-teal-400 animate-pulse"></span>
+          <span className="w-28 h-28 -ml-10 rounded-full inline-block border-r-8 border-b-8 border-teal-400 animate-pulse"></span>
+        </div>
+      </div>
     </>
   )
 }

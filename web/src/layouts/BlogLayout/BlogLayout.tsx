@@ -14,7 +14,7 @@ const BlogLayout = ({ children }) => {
           </p>
           <nav></nav>
         </header>
-        <main className="flex flex-grow bg-slate-600">
+        <main className="bg-slate-600 h-screen">
           {children}
         </main>
       </div>
